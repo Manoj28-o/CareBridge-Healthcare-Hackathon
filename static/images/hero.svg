@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" role="img" aria-label="Doctor with an appointment calendar">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d6fd8"/><stop offset="1" stop-color="#0f9d9a"/></linearGradient>
+<linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6f0fc"/><stop offset="1" stop-color="#d7f1ee"/></linearGradient>
+</defs>
+<style>
+.f1{animation:f 5s ease-in-out infinite}.f2{animation:f 6s ease-in-out -2s infinite}.f3{animation:f 7s ease-in-out -4s infinite}
+@keyframes f{50%{transform:translateY(-12px)}}
+.bg{transform-box:fill-box;transform-origin:center;animation:b 9s ease-in-out infinite}@keyframes b{50%{transform:scale(1.05) rotate(4deg)}}
+.ecg{stroke-dasharray:90;animation:e 2.6s linear infinite}@keyframes e{from{stroke-dashoffset:90}to{stroke-dashoffset:-90}}
+.pick{transform-box:fill-box;transform-origin:center;animation:p 2.4s ease-in-out infinite}@keyframes p{50%{transform:scale(1.12)}}
+text{font-family:Arial,Helvetica,sans-serif}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<ellipse class="bg" cx="260" cy="225" rx="220" ry="195" fill="url(#s)"/>
+<g class="f2">
+<rect x="240" y="64" width="230" height="200" rx="18" fill="#fff" stroke="#dbe6f1"/>
+<path d="M240 82a18 18 0 0 1 18-18h194a18 18 0 0 1 18 18v28H240z" fill="url(#g)"/>
+<text x="260" y="93" font-size="15" font-weight="700" fill="#fff">Choose a time</text>
+<g font-size="13" text-anchor="middle">
+<rect x="258" y="126" width="62" height="32" rx="9" fill="#eaf2fc"/><text x="289" y="147" fill="#1458ad">09:00</text>
+<rect x="328" y="126" width="62" height="32" rx="9" fill="#eef1f5"/><text x="359" y="147" fill="#9aa8b8">09:30</text>
+<rect x="398" y="126" width="62" height="32" rx="9" fill="#eaf2fc"/><text x="429" y="147" fill="#1458ad">10:00</text>
+<rect x="258" y="166" width="62" height="32" rx="9" fill="#eef1f5"/><text x="289" y="187" fill="#9aa8b8">10:30</text>
+<rect class="pick" x="328" y="166" width="62" height="32" rx="9" fill="url(#g)"/><text x="359" y="187" fill="#fff" font-weight="700">11:00</text>
+<rect x="398" y="166" width="62" height="32" rx="9" fill="#eaf2fc"/><text x="429" y="187" fill="#1458ad">14:00</text>
+</g>
+<rect x="258" y="214" width="202" height="34" rx="10" fill="#2e9e6a"/>
+<text x="359" y="236" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Book appointment</text>
+</g>
+<g class="f1">
+<path d="M88 440V330a72 72 0 0 1 144 0v110z" fill="#fff" stroke="#dbe6f1" stroke-width="2"/>
+<path d="M140 262l20 38 20-38" fill="#e6f0fc" stroke="#dbe6f1" stroke-width="2"/>
+<path d="M126 300q-8 60 34 60t34-60" fill="none" stroke="#1d6fd8" stroke-width="5" stroke-linecap="round"/>
+<circle cx="160" cy="362" r="9" fill="#0f9d9a"/>
+<rect x="190" y="326" width="22" height="22" rx="5" fill="#2e9e6a"/><path d="M201 331v12M195 337h12" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<rect x="147" y="238" width="26" height="30" rx="10" fill="#f0c4a0"/>
+<circle cx="160" cy="205" r="44" fill="#f6d2b3"/>
+<path d="M116 200a44 44 0 0 1 88 0c-14-18-44-26-88 0z" fill="#3a2f2a"/>
+<circle cx="146" cy="210" r="4" fill="#3a2f2a"/><circle cx="174" cy="210" r="4" fill="#3a2f2a"/>
+<path d="M148 226q12 11 24 0" fill="none" stroke="#3a2f2a" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g class="f3"><rect x="262" y="290" width="168" height="48" rx="24" fill="#fff" stroke="#dbe6f1"/>
+<circle cx="288" cy="314" r="13" fill="#2e9e6a"/><path d="M282 314l5 5 8-9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="310" y="319" font-size="14" font-weight="700" fill="#12263f">Confirmed</text></g>
+<g class="f1"><rect x="300" y="356" width="150" height="48" rx="24" fill="#fff" stroke="#dbe6f1"/>
+<path class="ecg" d="M316 380h24l8-16 14 30 10-14h22l8-8h20" fill="none" stroke="#0f9d9a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="f2"><circle cx="70" cy="120" r="30" fill="#fff" stroke="#dbe6f1"/>
+<path d="M70 104l14 5v10c0 9-6 15-14 18-8-3-14-9-14-18v-10z" fill="#1d6fd8"/><path d="M63 121l5 5 9-10" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
